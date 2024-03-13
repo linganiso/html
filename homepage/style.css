@@ -1,0 +1,74 @@
+:root{
+    --color: #e40046;
+    }
+    .step{
+        display: none;
+    }    
+    .step.active{
+        display: block; 
+    }
+    .main-background{
+        background: url(upload/hotel.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .book-section{
+        padding: 2rem 0%;
+        height: 0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-book{
+        width: 100%;
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .inner-book input{
+        padding: .7rem 1rem;
+        margin: .5rem 0;
+    }
+    .book-btn{
+        padding: .7rem 1rem;
+        background: #e40046;
+
+    }
+    .book-btn a{
+        color: white;
+        font-size: 1.5rem;
+    }
+    .our-rooms{
+        padding: 2rem 7%;
+    }
+    .our-rooms h1{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 2rem;
+    }
+    .our-rooms h1 span{
+        color: var(--maincolor);
+    }
+    .availabilty-form{
+      margin-top: -10vh; 
+      z-index: 2; 
+      position: relative;
+    }
+    @media screen and (max-width: 575px) {
+      .availabilty-form{
+      margin-top: -10vh; 
+      padding: 0 35px;
+      }  
+    }
+    .fa-star{
+      color: gold;
+    }
