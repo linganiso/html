@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eHotel</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Onclick -->
+  <link rel="stylesheet" href="../js/main.js">
+  <!-- Form -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<div class="wrapper">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="#">TECH SOLUTIONS</a>
+    <button class="navbar-toggler shadow-none" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2" href="#">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="d-flex">
+          <button style="float: right" class="btn btn-outline-dark shadow-none me-lg-2 me-3 mr-2">
+            Login
+          </button>
+          <button class="btn btn-outline-dark shadow-none">
+            Register
+          </button>
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>>
+<!-- /.navbar -->
+
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a href="dashboard.html" class="brand-link">
+    <img src="" alt="" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text font-weight-light"><b>Tech Solutions</b></span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item">
+          <a href="dashboard.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Home
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="grades.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Grades
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="add-assessment.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Add Assessments
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="assessments.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Assessments
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="Messages.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Messages
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="notification.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Notifications
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="profile.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Profile
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contacts.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Contacts
+            </p>
+          </a>
+        </li> 
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Logout
+            </p>
+          </a>
+        </li>   
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1 class="m-0">Profile</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
+            <li class="breadcrumb-item active">Profile</li>
+          </ol>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+
+  <!-- Main content -->
+    <section class="content">
+            <!-- Profile Image -->
+            <div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="upload/solethu.png"
+                       alt="User profile picture">
+                </div>
+
+                <h3 class="profile-username text-center">Linganiso Solethu</h3>
+
+                <p class="text-muted text-center">linganisosolethu98@gmail.com</p>
+
+                <div class="card-body">
+                  <strong> Date of Birth</strong>
+  
+                  <p class="text-muted">
+                     18 / 08 / 1998
+                  </p>
+  
+                  <hr>
+  
+                  <strong> ID Number</strong>
+  
+                  <p class="text-muted"> 9808185643086</p>  
+                  <hr>
+                  <strong> Phone Number</strong>
+  
+                  <p class="text-muted"> 063 570 0638/ 065 789 7654</p>
+
+                  <hr>
+    
+                </div>
+                <div>
+                  <div class="card-header" style="float: right;">
+                    <button type="button" name="button" class="btn btn-primary bg-danger"  style="border: none; float:right;"> Delete</button>
+                  </div>
+                  <div class="card-header">
+                    <button type="button" name="button" class="btn btn-primary bg-success"  style="border: none; float:right;"> Update</button>
+                  </div>
+              </div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+    </section>
+  <!-- /.content -->
+
+  <!-- /.content -->
+
+</div>
+<!-- /.content-wrapper -->
+<footer class="main-footer">
+  <strong>Copyright &copy; 2023 <a href="linganisosolethu98@gmail.com">Linganiso Solethu</a>.</strong>
+  All rights reserved.
+  <div class="float-right d-none d-sm-inline-block">
+    <b>Version</b> 1.0.0
+  </div>
+</footer>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+  <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="plugins/jszip/jszip.min.js"></script>
+<script src="plugins/pdfmake/pdfmake.min.js"></script>
+<script src="plugins/pdfmake/vfs_fonts.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+
+<script>
+$(function () {
+  $("#example1").DataTable({
+    "responsive": true, "lengthChange": false, "autoWidth": false,
+    "buttons": ["", "", "", "", "", ""]
+  })
+
+});
+</script>
+</body>
+</html>
